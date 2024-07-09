@@ -3,9 +3,10 @@
 
 /*banner style*/
 .banner{
-    max-width: 1440px;
+    max-width: 1489px;
     height: 652px;
-    margin: 0 0;
+    margin-left: 0;
+    margin-right: 0;
     margin-top: 60px;
     background-image: url('../assets/Hero-bg.png');
     background-size: cover;
@@ -40,7 +41,8 @@ padding: 0px;
     margin: 20px 0px;
 }
 .banner-description{
-    color: rgba(45, 50, 62, 0.919);
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
     font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 400;
@@ -66,4 +68,49 @@ padding: 0px;
     align-items: center;
     padding: 21px 24px 21px 24px;
     border-radius: 5px;
+}
+/*why-dev section style*/
+.why-dev{
+    width: 1140px;
+    height: 1393px;
+    margin: 74px 152px 94px 148px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.why-dev-container{
+    width: 946px;
+    height: 1233px;
+    margin: 80px 97px;
+   
+    
+}
+.why-dev-title{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    margin-top:0;
+font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+letter-spacing: 0%;
+text-align: center;
+}
+.why-dev-description{
+    width: 852px;
+    height: 52px;
+    color: rgb(13, 19, 33);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+
 }
