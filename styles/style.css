@@ -93,7 +93,7 @@ padding: 0px;
 }
 .banner-description{
     color: rgb(13, 19, 33);
-    opacity: 0.7;
+    opacity: 0.9;
     font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 400;
@@ -181,4 +181,30 @@ text-align: center;
     margin: 48px;
     border-radius: 16px;
     background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+/*isnpiration section design*/
+.inspiration{
+    width: 1140px;
+    height: 775px;
+    margin: 90px 150px 150px 150px;
+} 
+.inspiration-title{
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+.inspiration-description{
+    margin-top: 0;
+    margin-bottom: 48px;
+}
+.inspiration-video{
+    width: 1140px;
+    height: 614px;
+    border-radius: 16px;
+    border: 2px solid rgba(172, 171, 171, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inspiration-video iframe{
+    border-radius: 16px;
 }
