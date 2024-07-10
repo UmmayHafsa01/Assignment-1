@@ -5,6 +5,7 @@
 .btn-primary{
     width: 171px;
     height: 47px;
+    background-color: white;
     box-sizing: border-box;
     border: 1px solid rgb(13, 19, 33);
     opacity: 0.7;
@@ -42,7 +43,7 @@
     letter-spacing: 0%;
     text-align: left;
     margin-top: 0;
-    margin-bottom: 32px;
+    margin-bottom: 22px;
 }
 .why-dev-contents{
     width: 477px;
@@ -128,7 +129,7 @@ padding: 0px;
 /*why-dev section style*/
 .why-dev{
     width: 1140px;
-    height: 1393px;
+    height: 1300px;
     margin: 74px 150px 94px 150px;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
@@ -138,7 +139,7 @@ padding: 0px;
 }
 .why-dev-container{
     width: 946px;
-    height: 1233px;
+    height: 1170px;
     margin: 80px 97px;
     display: flex;
     flex-direction: column;
@@ -253,7 +254,7 @@ margin-bottom: 8px;
 .box-description{
     color: rgb(13, 19, 33);
 font-family: Azeret Mono;
-font-size: 12px;
+font-size: 14px;
 font-weight: 400;
 line-height: 26px;
 letter-spacing: 0%;
