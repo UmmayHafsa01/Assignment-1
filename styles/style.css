@@ -315,3 +315,98 @@ margin-bottom: 24;
     font-weight: 600;
     margin-top: 0;
 }
+/*support section style*/
+.support{
+    width: 1140px;
+    height: 313px;
+    margin: 50px 150px 80px 150px;
+    background-image: url(../assets/handshake.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: overlay;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.support-container{
+    width: 1044px;
+    height: 185px;
+    margin: 64px 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.support-title{
+    color: rgb(255, 255, 255);
+    margin-top: 0;
+    margin-bottom: 16px;
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: center;
+
+}
+.support-description{
+    color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+margin-top: 0;
+margin-bottom: 48px;
+}
+
+.support-form{
+    width: 684px;
+    height: 57px;
+    margin-top:0 ;
+    margin-bottom: 0;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: first baseline;
+}
+.support-form input[type="text"]{
+    width: 550px;
+    height: 57px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+
+}
+.support-form ::placeholder{
+    color: rgba(13, 19, 33, 0.4);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: center;
+padding: 19px 20px 19px 20px;
+}
+.support-form input[type="submit"]{
+    width: 120px;
+    height: 58px;
+    padding: 17px 20px;
+    border-radius: 8px;
+}
+#support-submit ::placeholder{
+    color: rgb(13, 19, 33);
+    width: 80px;
+    height: 24px;
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+}
