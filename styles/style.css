@@ -208,3 +208,110 @@ text-align: center;
 .inspiration-video iframe{
     border-radius: 16px;
 }
+/*current target section style*/
+.current-target{
+    width: 1140px;
+    height: 460px;
+    display: flex;
+    flex-direction: column;
+   
+    margin: 150px 150px 111px 150px;
+}
+.current-target-title{
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+.current-target-description{
+    margin-top: 0;
+    margin-bottom: 48px;
+}
+.current-target-boxs{
+    width: 1140px;
+    height: 299px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 25px;
+    align-items: center;
+}
+.box-title{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 800;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 0;
+margin-bottom: 8px;
+}
+.box-description{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 12px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 0;
+margin-bottom: 24;
+}
+.html-box{
+    width: 284px;
+    height: 219px;
+    display: flex;
+    flex-direction: column;
+    align-items: first baseline;
+    justify-content: center;
+    padding: 48px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+.css-box{
+    width: 284px;
+    height: 219px;
+    padding: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: first baseline;
+    justify-content: center;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+
+}
+.js-box{
+    width: 284px;
+    height: 219px;
+    padding: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items:first baseline;
+    justify-content: center;
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
+.html-box img{
+    width: 56px;
+    height: 56px;
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+.css-box img{
+    width: 56px;
+    height: 56px;
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+.js-box img{
+    width: 56px;
+    height: 56px;
+    margin-top: 2px;
+    margin-bottom: 24px;
+}
+
+.current-target-boxs a{
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 0;
+}
