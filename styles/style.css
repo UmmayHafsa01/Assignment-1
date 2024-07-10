@@ -398,15 +398,37 @@ padding: 19px 20px 19px 20px;
     height: 58px;
     padding: 17px 20px;
     border-radius: 8px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: white;
 }
-#support-submit ::placeholder{
+
+/*commit section style*/
+.commit{
+    width: 1440px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+}
+.commit-content{
     color: rgb(13, 19, 33);
-    width: 80px;
-    height: 24px;
 font-family: Azeret Mono;
 font-size: 20px;
 font-weight: 600;
 line-height: 23px;
 letter-spacing: 0%;
 text-align: center;
+margin-left: 150px;
+}
+.commit-img{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    align-items: center;
+    width: 157.01px;
+    height: 36px;
+    margin-right: 150px;
 }
